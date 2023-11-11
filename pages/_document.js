@@ -5,7 +5,9 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang="en" className="theme-compiled">
-        <Head />
+        <Head>
+          <meta name="google-adsense-account" content="ca-pub-4129462129900088">
+        </Head>
         <body
           className={`antialiased text-lg bg-white dark:bg-gray-900 dark:text-white leading-base`}
         >
