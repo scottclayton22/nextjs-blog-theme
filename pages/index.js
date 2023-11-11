@@ -17,17 +17,6 @@ export default function Index({ posts, globalData }) {
         <h1 className="text-3xl lg:text-5xl text-center mb-12">
           {globalData.blogTitle}
         </h1>
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4129462129900088"
-     crossorigin="anonymous"></script>
-        <ins class="adsbygoogle"
-            style="display:block"
-            data-ad-client="ca-pub-4129462129900088"
-            data-ad-slot="1227897744"
-            data-ad-format="auto"
-            data-full-width-responsive="true"></ins>
-         <script>
-             (adsbygoogle = window.adsbygoogle || []).push({});
-         </script>
         <ul className="w-full">
           {posts.map((post) => (
             <li
